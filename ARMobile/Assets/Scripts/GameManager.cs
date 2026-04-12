@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     void EndGame() {
         isGameActive = false;
-        Score.SetActive(false); // Optional: Hide score when finished
+        Score.SetActive(false);
         finishPanel.SetActive(true);
         Time.timeScale = 0;
     }
